@@ -1,8 +1,9 @@
 <?php
 
 
-require __DIR__ . '/../vendor/autoload.php';
 
-$parle = new \App\Wcs\Hello();
 
-echo $parle->talk();
+ require __DIR__. '/../vendor/autoload.php';
+
+$hello = new \HelloWorld\SayHello();
+echo $hello->world();
